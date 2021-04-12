@@ -15,3 +15,18 @@
     height: 30vw;
     object-fit: contain;
 }
+
+
+.pages .page {
+    display: none;
+}
+
+.pages .page.is-active {
+    display: block;
+}
+
+.titulo {
+    font-size: 80px;
+    padding: 40px;
+    margin: 10px;
+}
